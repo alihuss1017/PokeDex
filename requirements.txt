@@ -1,3 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch
+torchvision
 asposestorage==1.0.2
 numpy==1.25.2
 path.py==12.5.0
@@ -8,6 +11,3 @@ opencv-python==4.8.0.76
 Pillow==9.3.0
 -f data.pyg.org/whl/torch-1.13.0+cu116.html torch-sparse
 -f data.pyg.org/whl/torch-1.13.0+cu116.html torch-scatter
---extra-index-url https://download.pytorch.org/whl/cu116
-torch
-torchvision
