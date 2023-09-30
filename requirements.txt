@@ -3,7 +3,7 @@ numpy==1.25.2
 path.py==12.5.0
 streamlit==1.26.0
 torch==2.0.1
-torchvision==0.10.0
+torchvision==0.15.2+cu117
 opencv-python==4.8.0.76
 Pillow==9.3.0
 -f data.pyg.org/whl/torch-1.13.0+cu116.html torch-sparse
