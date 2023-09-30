@@ -8,4 +8,4 @@ opencv-python==4.8.0.76
 Pillow==9.3.0
 -f data.pyg.org/whl/torch-1.13.0+cu116.html torch-sparse
 -f data.pyg.org/whl/torch-1.13.0+cu116.html torch-scatter
--f data.pyg.org/whl/torch-1.13.0+cu117.html torch-vision
+-f https://download.pytorch.org/whl/torch_stable.html
