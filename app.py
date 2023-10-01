@@ -28,7 +28,7 @@ img = st.file_uploader('Upload image of Pokemon: ', type = ['jpeg', 'jpg', 'png'
 if img is not None:
 
 
-    img = Image.open(img)
+    img = Image.open(img).convert('RGB')
     st.image(img, caption = "Uploaded Pokemon", use_column_width= True)
 
     input_tensor = transform(img).unsqueeze(0)
