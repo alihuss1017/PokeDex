@@ -10,7 +10,7 @@ import os
 # LOAD MODEL ARCHITECTURE
 model = models.resnet101()
 model.fc = nn.Linear(model.fc.in_features, 150)
-model.load_state_dict(torch.load('pokemodel.pt'))
+model.load_state_dict(torch.load('pokemodel.pt', map_location=torch.device('cpu')))
 
 model.eval()
 
