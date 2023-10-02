@@ -9,9 +9,10 @@ import os
 from facenet_pytorch import InceptionResnetV1
 
 # LOAD MODEL ARCHITECTURE
-model = InceptionResnetV1(pretrained = 'vggface2')
-model.logits = nn.Linear(model.logits.in_features, 150)
-model = nn.Sequential(model, nn.Softmax(dim = 1))
+model = models.resnet101(weights="ResNet101_Weights.DEFAULT")
+model.fc = nn.Sequential(nn.Linear(2048, 512),
+                         nn.ReLU(),
+                         nn.Linear(512, 150))
 model.load_state_dict(torch.load('pokemodel.pt'))
 
 model.eval()
