@@ -6,21 +6,25 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 from PIL import Image
 import os
+from facenet_pytorch import InceptionResnetV1
 
 # LOAD MODEL ARCHITECTURE
-model = models.resnet101()
-model.fc = nn.Linear(model.fc.in_features, 150)
-model = model.to('cpu')
-model.load_state_dict(torch.load('pokemodel.pt', map_location=torch.device('cpu')))
+model = InceptionResnetV1(pretrained = 'vggface2')
+model.logits = nn.Linear(model.logits.in_features, 150)
+model = nn.Sequential(model, nn.Softmax(dim = 1))
+model.load_state_dict(torch.load('pokemodel.pt'))
 
 model.eval()
 
 
 # Define the same transformations used during training
 transform = transforms.Compose([
-                                transforms.Resize((224,224)),
-                                  transforms.ToTensor(), 
-                                transforms.Normalize(mean = [0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+              transforms.RandomHorizontalFlip(),
+              transforms.RandomRotation(degrees = 15),
+              transforms.Resize((224,224)),
+              transforms.ToTensor(), 
+              transforms.Normalize(mean = [0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+
 st.title("Ali's Pokedex")
 
 img = st.file_uploader('Upload image of Pokemon: ', type = ['jpeg', 'jpg', 'png'])
