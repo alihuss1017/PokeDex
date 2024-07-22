@@ -16,7 +16,7 @@ def predict_page():
     model.fc = nn.Sequential(nn.Linear(2048, 512),
                             nn.ReLU(),
                             nn.Linear(512, 150))
-    model.load_state_dict(torch.load('pokemodel.pt'), map_locaiton = torch.device('cpu'))
+    model.load_state_dict(torch.load('pokemodel.pt'), map_location = torch.device('cpu'))
     model.eval()
     # Define the same transformations used during training
     transform = transforms.Compose([
