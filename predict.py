@@ -1,12 +1,14 @@
 import streamlit as st
 import numpy as np
+import pandas as pd
+import altair as alt
 import torch
 import torchvision.models as models
 import torchvision.transforms as transforms
 import torch.nn as nn
 from PIL import Image
 import os
-from facenet_pytorch import InceptionResnetV1
+
 # LOAD MODEL ARCHITECTURE
 
 def predict_page():
@@ -22,15 +24,14 @@ def predict_page():
                 transforms.RandomRotation(degrees = 15),
                 transforms.Resize((224,224)),
                 transforms.ToTensor(), 
-                transforms.Normalize(mean = [0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+                transforms.Normalize(mean = [0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])])
 
     img = st.file_uploader('Upload image of Pokemon: ', type = ['jpeg', 'jpg', 'png'])
+    poke_df = pd.read_csv('gen1_pokemon_stats.csv').sort_values(by = "Name")
 
     if img is not None:
 
-
         img = Image.open(img).convert('RGB')
-        st.image(img, caption = "Uploaded Pokemon", use_column_width= True)
 
         input_tensor = transform(img).unsqueeze(0)
 
@@ -54,8 +55,22 @@ def predict_page():
         # Create a dictionary to map class indices to Pokemon names
         class_to_name = {i: class_name for i, class_name in enumerate(class_names)}
 
-        # Now, when you have a predicted class index (predicted_class), you can get the Pokemon name
-        predicted_pokemon = class_to_name[predicted_class]
+        pokemon = poke_df.iloc[predicted_class]
+        st.image(f'sprites/{pokemon["Name"].lower()}.gif', width = 200)
+        st.write(f'Pokédex Entry: {pokemon["#"]}')
+        st.write(f'Predicted Pokémon: {pokemon["Name"]}')
 
-        st.write(f'Predicted Pokemon: {predicted_pokemon}')
-        # Display the image with the predicted classification
+        data = {
+            'Category': ['HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp Def', 'Speed'],
+            'Values' : [pokemon["HP"], pokemon["Attack"], pokemon["Defense"],
+                        pokemon["Sp. Atk"], pokemon["Sp. Def"], pokemon["Speed"]]
+        }
+
+        stats_df = pd.DataFrame(data)
+        chart = alt.Chart(stats_df).mark_bar().encode(y = alt.Y('Category:N', sort = None, axis = alt.Axis(labelFontSize = 16)),
+                                                      x = alt.X("Values:Q", scale = alt.Scale(domain = [0, 125]), axis = None),
+                                                      color = alt.Color('Values:Q', scale = alt.Scale(domain = [20, 125], range = ['red', 'green']), legend = None)
+        ).properties(width = 800, height = 350)
+        st.title("Stats")
+        st.altair_chart(chart, use_container_width = True)
+
