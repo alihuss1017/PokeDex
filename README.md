@@ -8,6 +8,5 @@
 #### Paper: https://arxiv.org/abs/1512.03385
 
 ## Limitations:
-#### 1. <b> Limited Training Set </b>: Only 25-50 images per Pokémon, excludes shinies and TCG.
-#### 2. <b> Limited Pokémon </b>: Only intended for the 151 Pokémon in the 1st generation.
-#### 3. <b> Lack of information </b>: Only provides name of Pokémon, no details included.
+#### 1. <b> Limited Training Set </b>: Only 25-50 images per Pokémon, images include very little to no shiny Pokémon and TCG.
+#### 2. <b> Limited Pokémon </b>: Only intended for the Pokémon in the 1st generation. Excludes Nidoran (both male and female versions), summing up to 149 Pokémon.
