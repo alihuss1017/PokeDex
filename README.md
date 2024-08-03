@@ -3,9 +3,8 @@
 ## Overview 
 #### Welcome to the first version of our 1st generation PokéDex! This PokeDéx was developed using deep learning and computer vision techniques, utilizing ResNet101 transfer learning with hyperparameter tuning. It is designed to recognize 1st Generation Pokémon.
 
-## ResNet Information:
-#### Quick Intro to ResNet: https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/ <br>
-#### Paper: https://arxiv.org/abs/1512.03385
+## Demonstration:
+#### https://www.youtube.com/watch?v=XzMrN6GGS4s
 
 ## Limitations:
 #### 1. <b> Limited Training Set </b>: Only 25-50 images per Pokémon, images include very little to no shiny Pokémon and TCG.
