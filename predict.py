@@ -32,7 +32,7 @@ def predict_page():
 
     # PROMPT USER IMAGE UPLOAD
     img = st.file_uploader('Upload image of Pokemon: ', type = ['jpeg', 'jpg', 'png'])
-    poke_df = pd.read_csv('gen1_pokemon_stats.csv').sort_values(by = "Name")
+    poke_df = pd.read_csv('pokedex_info.csv').sort_values(by = "Name")
 
     if img is not None:
         img = Image.open(img).convert('RGB')
@@ -55,9 +55,10 @@ def predict_page():
 
         # UPLOAD POKEMON INFORMATION
         st.image(f'sprites/{pokemon["Name"].lower()}.gif', width = 200)
-        st.write(f'Pokédex Entry: {pokemon["#"]}')
+        st.write(f'Pokédex #: {pokemon["#"]}')
         st.write(f'Predicted Pokémon: {pokemon["Name"]}')
-
+        st.write(f'Pokédex Entry: {pokemon["Entry"]}')
+        st.audio(f'cries/{pokemon["#"]}.ogg', format = "audio/ogg", autoplay = True)
 
         # PLOT POKEMON STATS
         data = {

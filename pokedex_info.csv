@@ -1,0 +1,150 @@
+#,Name,Type,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Entry
+0001,Bulbasaur,Grass Poison,318,45,49,49,65,65,45,A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.
+0002,Ivysaur,Grass Poison,405,60,62,63,80,80,60,"When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+0003,Venusaur,Grass Poison,525,80,82,83,100,100,80,The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+0004,Charmander,Fire,309,39,52,43,60,50,65,"Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail."
+0005,Charmeleon,Fire,405,58,64,58,80,65,80,"When it swings its burning tail, it elevates the temperature to unbearably high levels."
+0006,Charizard,Fire Flying,534,78,84,78,109,85,100,Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.
+0007,Squirtle,Water,314,44,48,65,50,64,43,"After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
+0008,Wartortle,Water,405,59,63,80,65,80,58,"Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance."
+0009,Blastoise,Water,530,79,83,100,85,105,78,A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.
+0010,Caterpie,Bug,195,45,30,35,20,20,45,Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.
+0011,Metapod,Bug,205,50,20,55,25,25,30,"This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body."
+0012,Butterfree,Bug Flying,395,60,45,50,90,80,70,"In battle, it flaps its wings at high speed to release highly toxic dust into the air."
+0013,Weedle,Bug Poison,195,40,35,30,20,20,50,"Often found in forests, eating leaves. It has a sharp venomous stinger on its head."
+0014,Kakuna,Bug Poison,205,45,25,50,25,25,35,"Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators."
+0015,Beedrill,Bug Poison,395,65,90,40,45,80,75,Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.
+0016,Pidgey,Normal Flying,251,40,45,40,35,35,56,A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.
+0017,Pidgeotto,Normal Flying,349,63,60,55,50,50,71,"Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder."
+0018,Pidgeot,Normal Flying,479,83,80,75,70,70,101,"When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP."
+0019,Rattata,Normal,253,30,56,35,25,35,72,"Bites anything when it attacks. Small and very quick, it is a common sight in many places."
+0020,Raticate,Normal,413,55,81,60,50,70,97,It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.
+0021,Spearow,Normal Flying,262,40,60,30,31,31,70,Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.
+0022,Fearow,Normal Flying,442,65,90,65,61,61,100,"With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
+0023,Ekans,Poison,288,35,60,44,40,54,55,"Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
+0024,Arbok,Poison,448,60,95,69,65,79,80,It is rumored that the ferocious warning markings on its belly differ from area to area.
+0025,Pikachu,Electric,320,35,55,40,50,50,90,"When several of these POKéMON gather, their electricity could build and cause lightning storms."
+0026,Raichu,Electric,485,60,90,55,90,80,110,Its long tail serves as a ground to protect itself from its own high voltage power.
+0027,Sandshrew,Ground,300,50,75,85,20,30,40,Burrows deep underground in arid locations far from water. It only emerges to hunt for food.
+0028,Sandslash,Ground,450,75,100,110,45,55,65,Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.
+0030,Nidorina,Poison,365,70,62,67,55,55,56,The female’s horn develops slowly. Prefers physical attacks such as clawing and biting.
+0031,Nidoqueen,Poison Ground,505,90,92,87,75,85,76,Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.
+0033,Nidorino,Poison,365,61,72,57,55,55,65,An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.
+0034,Nidoking,Poison Ground,505,81,102,77,85,75,85,"It uses its powerful tail in battle to smash, constrict, then break the prey’s bones."
+0035,Clefairy,Fairy,323,70,45,48,60,65,35,Its magical and cute appeal has many admirers. It is rare and found only in certain areas.
+0036,Clefable,Fairy,483,95,70,73,95,90,60,A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.
+0037,Vulpix,Fire,299,38,41,40,50,65,65,"At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
+0038,Ninetales,Fire,505,73,76,75,81,100,100,Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.
+0039,Jigglypuff,Normal Fairy,270,115,45,20,45,25,20,"When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep."
+0040,Wigglytuff,Normal Fairy,435,140,70,45,85,50,45,"The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
+0041,Zubat,Poison Flying,245,40,45,35,30,40,55,Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.
+0042,Golbat,Poison Flying,455,75,80,70,65,75,90,"Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
+0043,Oddish,Grass Poison,320,45,50,55,75,65,30,"During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
+0044,Gloom,Grass Poison,395,60,65,70,85,75,40,The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.
+0045,Vileplume,Grass Poison,490,75,80,85,110,90,50,"The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+0046,Paras,Bug Grass,285,35,70,55,45,55,25,Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.
+0047,Parasect,Bug Grass,405,60,95,80,60,80,30,A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.
+0048,Venonat,Bug Poison,305,60,55,50,40,55,45,Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.
+0049,Venomoth,Bug Poison,450,70,65,60,90,75,90,The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.
+0050,Diglett,Ground,265,10,55,25,35,45,95,Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.
+0051,Dugtrio,Ground,425,35,100,50,50,70,120,A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.
+0052,Meowth,Normal,290,40,45,35,40,40,90,Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.
+0053,Persian,Normal,440,65,70,60,65,65,115,"Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
+0054,Psyduck,Water,320,50,52,48,65,50,55,"While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers."
+0055,Golduck,Water,500,80,82,78,95,80,85,"Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
+0056,Mankey,Fighting,305,40,80,35,35,45,70,Extremely quick to anger. It could be docile one moment then thrashing away the next instant.
+0057,Primeape,Fighting,455,65,105,60,60,70,95,Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.
+0058,Growlithe,Fire,350,55,70,45,70,50,60,Very protective of its territory. It will bark and bite to repel intruders from its space.
+0059,Arcanine,Fire,555,90,110,80,100,80,95,A POKéMON that has been admired since the past for its beauty. It runs agilely as if on wings.
+0060,Poliwag,Water,300,40,50,40,40,40,90,Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.
+0061,Poliwhirl,Water,385,65,65,65,50,50,90,"Capable of living in or out of water. When out of water, it sweats to keep its body slimy."
+0062,Poliwrath,Water Fighting,510,90,95,95,70,90,70,An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.
+0063,Abra,Psychic,310,25,20,15,105,55,90,"Using its ability to read minds, it will identify impending danger and TELEPORT to safety."
+0064,Kadabra,Psychic,400,40,35,30,120,70,105,It emits special alpha waves from its body that induce headaches just by being close by.
+0065,Alakazam,Psychic,500,55,50,45,135,95,120,"Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000."
+0066,Machop,Fighting,305,70,80,50,35,35,35,Loves to build its muscles. It trains in all styles of martial arts to become even stronger.
+0067,Machoke,Fighting,405,80,100,70,50,60,45,"Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions."
+0068,Machamp,Fighting,505,90,130,80,65,85,55,"Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon."
+0069,Bellsprout,Grass Poison,300,50,75,35,70,30,40,A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture.
+0070,Weepinbell,Grass Poison,390,65,90,50,85,45,55,It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.
+0071,Victreebel,Grass Poison,490,80,105,65,100,70,70,"Said to live in huge colonies deep in jungles, although no one has ever returned from there."
+0072,Tentacool,Water Poison,335,40,40,35,50,100,70,Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.
+0073,Tentacruel,Water Poison,515,80,70,65,80,120,100,"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
+0074,Geodude,Rock Ground,300,40,80,100,30,30,20,"Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
+0075,Graveler,Rock Ground,390,55,95,115,45,45,35,Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.
+0076,Golem,Rock Ground,495,80,120,130,55,65,45,Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.
+0077,Ponyta,Fire,410,50,85,55,65,65,90,Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.
+0078,Rapidash,Fire,500,65,100,70,80,80,105,"Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it."
+0079,Slowpoke,Water Psychic,315,90,65,65,40,40,15,Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.
+0080,Slowbro,Water Psychic,490,95,75,110,100,80,30,The SHELLDER that is latched onto SLOWPOKE’s tail is said to feed on the host’s left over scraps.
+0081,Magnemite,Electric Steel,325,25,35,70,95,55,45,Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.
+0082,Magneton,Electric Steel,465,50,60,95,120,70,70,Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.
+0083,Farfetch'd,Normal Flying,377,52,90,55,58,62,60,The sprig of green onions it holds is its weapon. It is used much like a metal sword.
+0084,Doduo,Normal Flying,310,35,85,45,35,35,75,A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.
+0085,Dodrio,Normal Flying,470,60,110,70,60,60,110,"Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
+0086,Seel,Water,325,65,45,55,45,70,45,The protruding horn on its head is very hard. It is used for bashing through thick ice.
+0087,Dewgong,Water Ice,475,90,70,80,70,95,70,Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.
+0088,Grimer,Poison,325,80,80,50,40,50,25,Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.
+0089,Muk,Poison,500,105,105,75,65,100,50,"Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+0090,Shellder,Water,305,30,65,100,45,25,40,Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.
+0091,Cloyster,Water Ice,525,50,95,180,85,45,70,"When attacked, it launches its horns in quick volleys. Its innards have never been seen."
+0092,Gastly,Ghost Poison,310,30,35,30,100,35,80,"Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice."
+0093,Haunter,Ghost Poison,405,45,50,45,115,55,95,"Because of its ability to slip through block walls, it is said to be from another dimension."
+0094,Gengar,Ghost Poison,500,60,65,60,130,75,110,"Under a full moon, this POKéMON likes to mimic the shadows of people and laugh at their fright."
+0095,Onix,Rock Ground,385,35,45,160,30,45,70,"As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
+0096,Drowzee,Psychic,328,60,48,45,43,90,42,Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.
+0097,Hypno,Psychic,483,85,73,70,73,115,67,"When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION."
+0098,Krabby,Water,325,30,105,90,25,25,50,"Its pincers are not only powerful weapons, they are used for balance when walking sideways."
+0099,Kingler,Water,475,55,130,115,50,50,75,"The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use."
+0100,Voltorb,Electric,330,40,30,50,55,55,100,"Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people."
+0101,Electrode,Electric,490,60,50,70,80,80,150,It stores electric energy under very high pressure. It often explodes with little or no provocation.
+0102,Exeggcute,Grass Psychic,325,60,40,80,60,45,40,"Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
+0103,Exeggutor,Grass Psychic,530,95,95,85,125,75,55,"Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE."
+0104,Cubone,Ground,320,50,50,95,40,50,35,"Because it never removes its skull helmet, no one has ever seen this POKéMON’s real face."
+0105,Marowak,Ground,425,60,80,110,50,80,45,The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.
+0106,Hitmonlee,Fighting,455,50,120,53,35,110,87,"When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
+0107,Hitmonchan,Fighting,455,50,105,79,35,110,76,"While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see."
+0108,Lickitung,Normal,385,90,55,75,60,75,30,Its tongue can be extended like a chameleon’s. It leaves a tingling sensation when it licks enemies.
+0109,Koffing,Poison,340,40,65,95,60,45,35,"Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
+0110,Weezing,Poison,490,65,90,120,85,70,60,"Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years."
+0111,Rhyhorn,Ground Rock,345,80,85,95,30,30,25,Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.
+0112,Rhydon,Ground Rock,485,105,130,120,45,45,40,"Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees."
+0113,Chansey,Normal,450,250,5,5,35,105,50,A rare and elusive POKéMON that is said to bring happiness to those who manage to get it.
+0114,Tangela,Grass,435,65,55,115,100,40,60,The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.
+0115,Kangaskhan,Normal,490,105,95,80,40,80,90,The infant rarely ventures out of its mother’s protective pouch until it is 3 years old.
+0116,Horsea,Water,295,30,40,70,70,25,60,Known to shoot down flying bugs with precision blasts of ink from the surface of the water.
+0117,Seadra,Water,440,55,65,95,95,45,85,Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.
+0118,Goldeen,Water,320,45,67,60,35,50,63,"Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen."
+0119,Seaking,Water,450,80,92,65,65,80,68,"In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
+0120,Staryu,Water,340,30,45,55,70,55,85,An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle.
+0121,Starmie,Water Psychic,520,60,75,85,100,85,115,Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.
+0122,Mr. Mime,Psychic Fairy,460,40,45,65,100,120,90,"If interrupted while it is miming, it will slap around the offender with its broad hands."
+0123,Scyther,Bug Flying,500,70,110,80,55,80,105,"With ninja-like agility and speed, it can create the illusion that there is more than one."
+0124,Jynx,Ice Psychic,455,65,50,35,115,95,95,It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.
+0125,Electabuzz,Electric,490,65,83,57,95,85,105,"Normally found near power plants, they can wander away and cause major blackouts in cities."
+0126,Magmar,Fire,495,65,95,57,100,85,93,Its body always burns with an orange glow that enables it to hide perfectly among flames.
+0127,Pinsir,Bug,500,65,125,100,55,70,85,"If it fails to crush the victim in its pincers, it will swing it around and toss it hard."
+0128,Tauros,Normal,490,75,100,95,40,70,110,"When it targets an enemy, it charges furiously while whipping its body with its long tails."
+0129,Magikarp,Water,200,20,10,55,15,20,80,"In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+0130,Gyarados,Water Flying,540,95,125,79,60,100,81,"Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
+0131,Lapras,Water Ice,535,130,85,80,85,95,60,A POKéMON that has been overhunted almost to extinction. It can ferry people across the water.
+0132,Ditto,Normal,288,48,48,48,48,48,48,Capable of copying an enemy’s genetic code to instantly transform itself into a duplicate of the enemy.
+0133,Eevee,Normal,325,55,55,50,45,65,55,Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.
+0134,Vaporeon,Water,525,130,65,60,110,95,65,Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid’s.
+0135,Jolteon,Electric,525,65,65,60,110,95,130,It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.
+0136,Flareon,Fire,525,65,130,60,95,110,65,"When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
+0137,Porygon,Normal,395,65,60,70,85,75,40,A POKéMON that consists entirely of programming code. Capable of moving freely in cyberspace.
+0138,Omanyte,Rock Water,355,35,40,100,90,55,35,"Although long extinct, in rare cases, it can be genetically resurrected from fossils."
+0139,Omastar,Rock Water,495,70,60,125,115,70,55,A prehistoric POKéMON that died out when its heavy shell made it impossible to catch prey.
+0140,Kabuto,Rock Water,355,30,80,90,55,45,55,A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago.
+0141,Kabutops,Rock Water,495,60,115,105,65,70,80,Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.
+0142,Aerodactyl,Rock Flying,515,80,105,65,60,75,130,"A ferocious, prehistoric POKéMON that goes for the enemy’s throat with its serrated saw-like fangs."
+0143,Snorlax,Normal,540,160,110,65,65,110,30,"Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+0144,Articuno,Ice Flying,580,90,85,100,95,125,85,A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.
+0145,Zapdos,Electric Flying,580,90,90,85,125,90,100,A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.
+0146,Moltres,Fire Flying,580,90,100,90,125,85,90,Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.
+0147,Dratini,Dragon,300,41,64,45,50,50,50,Long considered a mythical POKéMON until recently when a small colony was found living underwater.
+0148,Dragonair,Dragon,420,61,84,65,70,70,70,A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.
+0149,Dragonite,Dragon Flying,600,91,134,95,100,100,80,An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans.
+0150,Mewtwo,Psychic,680,106,110,90,154,90,130,It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.
+0151,Mew,Psychic,600,100,100,100,100,100,100,So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.
