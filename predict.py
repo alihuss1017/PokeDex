@@ -9,7 +9,6 @@ import torch.nn as nn
 from PIL import Image
 import os
 
-
 def predict_page():
 
     #LOAD TRAINED MODEL
@@ -54,11 +53,13 @@ def predict_page():
         pokemon = poke_df.iloc[predicted_class]
 
         # UPLOAD POKEMON INFORMATION
-        st.image(f'sprites/{pokemon["Name"].lower()}.gif', width = 200)
-        st.write(f'Pokédex #: {pokemon["#"]}')
-        st.write(f'Predicted Pokémon: {pokemon["Name"]}')
-        st.write(f'Pokédex Entry: {pokemon["Entry"]}')
-        st.audio(f'cries/{pokemon["#"]}.ogg', format = "audio/ogg", autoplay = True)
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image(f'sprites/{pokemon["Name"].lower()}.gif', width = 150)
+            st.write(f'Pokédex #: {pokemon["#"]}')
+            st.write(f'Predicted Pokémon: {pokemon["Name"]}')
+            st.write(f'Pokédex Entry: {pokemon["Entry"]}')
+            st.audio(f'cries/{pokemon["#"]}.ogg', format = "audio/ogg")
 
         # PLOT POKEMON STATS
         data = {
@@ -68,10 +69,12 @@ def predict_page():
         }
 
         stats_df = pd.DataFrame(data)
-        chart = alt.Chart(stats_df).mark_bar().encode(y = alt.Y('Category:N', sort = None, axis = alt.Axis(labelFontSize = 16)),
-                                                      x = alt.X("Values:Q", scale = alt.Scale(domain = [0, 125]), axis = None),
-                                                      color = alt.Color('Values:Q', scale = alt.Scale(domain = [20, 125], range = ['red', 'green']), legend = None)
-        ).properties(width = 800, height = 350)
-        st.title("Stats")
-        st.altair_chart(chart, use_container_width = True)
+        with col2:
+            chart = alt.Chart(stats_df).mark_bar().encode(y = alt.Y('Category:N', sort = None, axis = alt.Axis(labelFontSize = 16)),
+                                                        x = alt.X("Values:Q", scale = alt.Scale(domain = [0, 125]), axis = None),
+                                                        color = alt.Color('Values:Q', scale = alt.Scale(domain = [20, 125], range = ['red', 'green'], type = 'linear'),
+                                                                            legend = None)
+            ).properties(width = 800, height = 350)
+            st.title("Stats")
+            st.altair_chart(chart, use_container_width = True)
 
